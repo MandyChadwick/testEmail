@@ -19,7 +19,7 @@ public class EmailSender
             {
                 SendEmail(fromAddress, toAddress, password, subject, body);
                 Console.WriteLine($"Email sent at {DateTime.Now}");
-            }
+            } 
             catch (Exception ex)
             {
                 Console.WriteLine($"Error sending email: {ex.Message}");
